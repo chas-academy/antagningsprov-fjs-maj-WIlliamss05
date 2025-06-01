@@ -11,9 +11,9 @@ function uppg9 (){
     function sort(numbers) {
         numbers.forEach(number => {
             if (number % 2 === 0) {
-                console.log(`${number} är jämt`);
+                console.log(number, "är jämt");
             } else {
-                console.log(`${number} är udda`);
+                console.log(number, "är udda");
             }
         });
     }
